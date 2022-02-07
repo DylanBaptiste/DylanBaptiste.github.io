@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 # twitter_username: 
-github_username:    DylanBaptiste
+github_username: DylanBaptiste
 stackoverflow_username: "16583277"
 # dribbble_username: 
 # facebook_username: 
@@ -48,84 +48,93 @@ google_analytics: "G-YTMRPNNT9F"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-    Prochainement diplômé d'un Master en Intelligence Artificielle. 
-    Skills: <mark>AI</mark> <mark>NLP</mark> <mark>DATA VISUALISATION</mark>
+ Prochainement diplômé d'un Master en Intelligence Artificielle. 
+ Skills: <mark>AI</mark> <mark>NLP</mark> <mark>DATA VISUALISATION</mark>
 
 content:
-    - title: Projets # Title for the section
-        layout: list # Type of content section (list/text)
-        content:
-        - layout: top-middle
-            title: \[TER\] Analyse de ε, µ et 𝛕 dans l'algorithme "Competitive Aglomeration"
-            link: github.com/DylanBaptiste/TER-M1
-            # link_text: Project Website
-            additional_links:
-            - title: Lien vers le code
-                icon: fab fa-github
-                url: github.com/DylanBaptiste/TER-M1
-            quote: >
-                Analyse et visualisation tridimensionnel.
-            description: | # this will include new lines to allow paragraphs
-                
+  - title: Projets # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: \[TER\] Analyse de ε, µ et 𝛕 dans l'algorithme "Competitive Aglomeration"
+        link: github.com/DylanBaptiste/TER-M1
+        # link_text: Link Text
+        additional_links:
+          - title:  Lien vers le code
+            icon: fab fa-github
+            url: github.com/DylanBaptiste/TER-M1
+        quote: >
+          Analyse et visualisation tridimensionnel.
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Contribution au développement d'une plateforme de diagnostic de pannes d'un Système de Production Automatisé de type Système à Événements Discrets basée sur des techniques d'intelligence artificielle.
+        sub_title: Stage
+        caption: avr. 2021 - juin 2021 · 3 mois
+        link: https://www.researchgate.net/publication/358276526_Nouvelle_approche_de_diagnostic_en_ligne_des_Systemes_Automatises_de_Productions_Application_au_systeme_Import-Export_de_la_CellFlex_du_CReSTIC
+        quote: >
+          Stage de fin d'année de M1 réalisé au laboratoire de recherche [CReSTIC](https://crestic.univ-reims.fr/fr/) (Centre de Recherche en Science et Technique de l'Information et de Communication)
+        description: | # this will include new lines to allow paragraphs
+          Contribution au développement d'une plateforme de diagnostic de pannes d'un Système de Production Automatisé de type Système à Événements Discrets basée sur des techniques d'intelligence artificielle.
+          Pour ce stage de fin d'année de M1 j'ai eu la chanche de travailler dans l'equipe de [Mme R. Saddem](https://www.linkedin.com/in/ramla-saddem-57574559)
+          J'ai été chargé de la préparation des données du système notament sous la mise en forme de Signatures Temporelles Causales (STC) que Mme Saddem à devellopé dans [sa thèse](https://tel.archives-ouvertes.fr/tel-00861200).
+          J'ai pu aussi proposer et développer un modèle de réseau neuronal récursif (RNN) qui permet une prédiction des états futurs du système en se basant sur ses états passés.
+          Ce projet à permis d'aboutir à la publication d'un [papier de conference](https://www.researchgate.net/publication/358276526_Nouvelle_approche_de_diagnostic_en_ligne_des_Systemes_Automatises_de_Productions_Application_au_systeme_Import-Export_de_la_CellFlex_du_CReSTIC) ([téléchargement direct](http://msr2021.cnam.fr/pdf/MSR_2021_paper_13.pdf)).
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Université de Reims Champagne-Ardenne
+        sub_title: Master, Informatique
+        caption: 2020 - aujourd'hui
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+      - layout: left
+        title: Université de Reims Champagne-Ardenne
+        sub_title: Licence, Informatique
+        caption: 2015 - 2020
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-    - title: Experience # Title for the section
-        layout: list # Type of content section (list/text)
-        content:
-            - layout: left
-            title: Contribution au développement d'une plateforme de diagnostic de pannes d'un Système de Production Automatisé de type Système à Événements Discrets basée sur des techniques d'intelligence artificielle.
-            link: https://www.researchgate.net/publication/358276526_Nouvelle_approche_de_diagnostic_en_ligne_des_Systemes_Automatises_de_Productions_Application_au_systeme_Import-Export_de_la_CellFlex_du_CReSTIC
-            # link_text: boringcompany.com
-            sub_title: Senior Network System Administrator
-            caption: avr. 2021 - juin 2021 · 3 mois
-            quote: >
-                Stage de fin d'année de M1 réalisé au laboratoire de recherche [CReSTIC](https://crestic.univ-reims.fr/fr/) (Centre de Recherche en Science et Technique de l'Information et de Communication)
-            description: | # this will include new lines to allow paragraphs
-                Contribution au développement d'une plateforme de diagnostic de pannes d'un Système de Production Automatisé de type Système à Événements Discrets basée sur des techniques d'intelligence artificielle.
-                Pour ce stage de fin d'année de M1 j'ai eu la chanche de travailler dans l'equipe de [Mme R. Saddem](https://www.linkedin.com/in/ramla-saddem-57574559)
-                J'ai été chargé de la préparation des données du système notament sous la mise en forme de Signatures Temporelles Causales (STC) que Mme Saddem à devellopé dans [sa thèse](https://tel.archives-ouvertes.fr/tel-00861200).
-                J'ai pu aussi proposer et développer un modèle de réseau neuronal récursif (RNN) qui permet une prédiction des états futurs du système en se basant sur ses états passés.
-                Ce projet à permis d'aboutir à la publication d'un [papier de conference](https://www.researchgate.net/publication/358276526_Nouvelle_approche_de_diagnostic_en_ligne_des_Systemes_Automatises_de_Productions_Application_au_systeme_Import-Export_de_la_CellFlex_du_CReSTIC) ([téléchargement direct](http://msr2021.cnam.fr/pdf/MSR_2021_paper_13.pdf)).
-
-    - title: Education # Title for the section
-        layout: list # Type of content section (list/text)
-        content:
-            - layout: left
-            title: Université de Reims Champagne-Ardenne
-            caption: 2020 - aujourd'hui
-            sub_title: Master, Informatique
-            quote: >
-                
-            description: | # this will include new lines to allow paragraphs
-            - layout: left
-            title: Université de Reims Champagne-Ardenne
-            caption: 2015 - 2020
-            sub_title: Licence, Informatique
-            quote: >
-                
-            description: | # this will include new lines to allow paragraphs
-
-    - title: A Little More About Me
-        layout: text
-        content: | # this will include new lines to allow paragraphs
-            Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-            - Rock climbing
-            - Gaming
-            - Knitting
-            - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-            Look at this cool image    
-            ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-    - jekyll-seo-tag
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
